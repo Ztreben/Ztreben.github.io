@@ -6,32 +6,60 @@
   <title>我的学习笔记</title>
   <meta name="description" content="">
   
+  <meta name="author" content="John Doe">
+  <link rel="canonical" href="http://example.com/archives/2025/index.html">
+  <meta name="theme-color" content="#222">
+  <meta name="robots" content="index,follow">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="我的学习笔记">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="http://example.com/archives/2025/index.html">
+  <meta property="og:site_name" content="我的学习笔记">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="我的学习笔记">
+  <meta name="twitter:description" content="">
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script>/* Dark mode toggle */
-    (function(){
-      var stored = localStorage.getItem('theme');
-      if(stored){ document.documentElement.setAttribute('data-theme', stored); }
-    })();
+  <script>(function(){var s=localStorage.getItem('theme');if(s){document.documentElement.setAttribute('data-theme',s);}})();</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "headline": "我的学习笔记",
+    "url": "http://example.com/archives/2025/index.html",
+    "author": {"@type": "Person", "name": "John Doe"},
+    "publisher": {"@type": "Organization", "name": "我的学习笔记"},
+    "datePublished": "",
+    "description": ""
+  }
   </script>
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="我的学习笔记" type="application/atom+xml">
+</head>
 <body>
-<header id="header">
+  <header id="header">
   <div class="inner">
     <h1 id="logo"><a href="/">我的学习笔记</a></h1>
-    <nav id="main-nav">
+    <nav id="main-nav" aria-label="主导航">
       <a href="/" class="main-nav-link">首页</a>
       <a href="/archives" class="main-nav-link">归档</a>
+      <a href="/categories" class="main-nav-link">分类</a>
+      <a href="/tags" class="main-nav-link">标签</a>
     </nav>
-    <button id="theme-toggle" aria-label="切换主题">🌓</button>
+    <div id="sub-nav">
+      <button id="theme-toggle" aria-label="切换主题">🌓</button>
+      <div id="search-form-wrap">
+        <input type="search" class="search-form-input" placeholder="搜索..." aria-label="站内搜索"/>
+      </div>
+    </div>
   </div>
 </header>
-<div id="container">
-  <div id="wrap" class="inner">
-    <main id="content">
-      <section class="archives">
+  <div id="reading-progress"></div>
+  <div id="container">
+    <div id="wrap" class="inner">
+      <main id="content">
+        <section class="archives">
   <h1>归档</h1>
   
   
@@ -41,13 +69,58 @@
     </article>
   
 </section>
-    </main>
+      </main>
+      <aside id="sidebar">
+        <section class="widget-wrap">
+  <div class="widget" aria-labelledby="site-info-title">
+    <h2 id="site-info-title">站点信息</h2>
+    <p>文章数: 1</p>
+    <p>分类数: 0</p>
+    <p>标签数: 0</p>
   </div>
-</div>
-<footer id="footer"><div class="inner">© 2025 John Doe</div></footer>
-<script src="/js/jquery-3.6.4.min.js"></script>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="latest-posts-title">
+    <h2 id="latest-posts-title">最新文章</h2>
+    <ul>
+      
+        <li><a href="/2025/11/13/hello-hexo/">Hello Hexo Workflow</a></li>
+      
+    </ul>
+  </div>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="categories-title">
+    <h2 id="categories-title">分类</h2>
+    <ul>
+      
+    </ul>
+  </div>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="tags-title">
+    <h2 id="tags-title">标签</h2>
+    <div class="tagcloud">
+      
+    </div>
+  </div>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="toc-title">
+    <h2 id="toc-title">目录</h2>
+    <nav id="toc" aria-label="文章目录"></nav>
+  </div>
+</section>
+      </aside>
+    </div>
+  </div>
+  <footer id="footer"><div class="inner">© 2025 John Doe · 由 Hexo 驱动
+</div></footer>
+  <button id="back-to-top" aria-label="返回顶部">↑</button>
+  <script src="/js/jquery-3.6.4.min.js"></script>
 <script src="/fancybox/jquery.fancybox.min.js"></script>
 <script src="/js/script.js"></script>
+<script src="/js/enhancements.js" defer></script>
 <script>document.getElementById('theme-toggle').onclick=function(){var d=document.documentElement;var cur=d.getAttribute('data-theme')||'light';var next=cur==='light'?'dark':'light';d.setAttribute('data-theme',next);localStorage.setItem('theme',next);};</script>
 </body>
 </html>
