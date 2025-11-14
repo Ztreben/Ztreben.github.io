@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ztreben 的学习博客</title>
+  <title>Ztreben 的技术笔记</title>
   
-  <subtitle>记录学习，分享成长</subtitle>
+  <subtitle>软件工程 | 算法竞赛 | 项目实践 | 英语学习 | 生活分享</subtitle>
   <link href="https://ztreben.github.io/atom.xml" rel="self"/>
   
   <link href="https://ztreben.github.io/"/>
-  <updated>2025-11-14T06:24:07.088Z</updated>
+  <updated>2025-11-14T07:00:35.296Z</updated>
   <id>https://ztreben.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ztreben.github.io/2025/11/14/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
     <id>https://ztreben.github.io/2025/11/14/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
     <published>2025-11-14T06:23:28.000Z</published>
-    <updated>2025-11-14T06:24:07.088Z</updated>
+    <updated>2025-11-14T07:00:35.296Z</updated>
     
     <content type="html"><![CDATA[<h2 id="👋-你好，世界！"><a href="#👋-你好，世界！" class="headerlink" title="👋 你好，世界！"></a>👋 你好，世界！</h2><p>这是我的第一篇博客文章，使用 <strong>Butterfly</strong> 主题构建。</p><h3 id="✨-博客功能"><a href="#✨-博客功能" class="headerlink" title="✨ 博客功能"></a>✨ 博客功能</h3><ul><li>🎨 现代化设计</li><li>🌗 深色模式支持</li><li>🔍 本地搜索</li><li>📱 响应式布局</li><li>⚡️ 快速加载</li></ul><h3 id="📝-接下来…"><a href="#📝-接下来…" class="headerlink" title="📝 接下来…"></a>📝 接下来…</h3><p>我会在这里记录：</p><ul><li>学习笔记</li><li>技术分享</li><li>生活感悟</li></ul><h3 id="🚀-开始探索"><a href="#🚀-开始探索" class="headerlink" title="🚀 开始探索"></a>🚀 开始探索</h3><p>点击导航栏查看更多内容，欢迎常来！</p><hr><blockquote><p>“The journey of a thousand miles begins with one step.” - 老子</p></blockquote>]]></content>
     
@@ -33,12 +33,12 @@
     
     
     
-    <category term="日常" scheme="https://ztreben.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="生活分享" scheme="https://ztreben.github.io/categories/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/"/>
     
     
     <category term="博客" scheme="https://ztreben.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="开始" scheme="https://ztreben.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
+    <category term="建站" scheme="https://ztreben.github.io/tags/%E5%BB%BA%E7%AB%99/"/>
     
   </entry>
   

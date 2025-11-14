@@ -10,6 +10,33 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://ztreben.github.io/about/index.html</loc>
+    
+    <lastmod>2025-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ztreben.github.io/tags/index.html</loc>
+    
+    <lastmod>2025-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ztreben.github.io/categories/index.html</loc>
+    
+    <lastmod>2025-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>https://ztreben.github.io/</loc>
@@ -27,7 +54,7 @@
   </url>
   
   <url>
-    <loc>https://ztreben.github.io/tags/%E5%BC%80%E5%A7%8B/</loc>
+    <loc>https://ztreben.github.io/tags/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -36,7 +63,7 @@
 
   
   <url>
-    <loc>https://ztreben.github.io/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>https://ztreben.github.io/categories/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
