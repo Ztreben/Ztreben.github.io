@@ -103,6 +103,17 @@ avatar:
   rounded: true
   effect: false
 
+# 导航栏 logo
+nav:
+  logo: /images/favicon.png
+  display_title: true
+  fixed: false
+
+# 首页顶部设置
+index_img: 
+site_title:
+  icon: /images/favicon.png
+
 # 主题颜色（可后续优化）
 colors:
   primary: '#2563eb'
