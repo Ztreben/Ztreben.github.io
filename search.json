@@ -1,1 +1,1 @@
-[{"title":"Hello Hexo Workflow","url":"/2025/11/13/hello-hexo/","content":"欢迎来到新的 Hexo Markdown 工作流！\n代码高亮示例function greet(name)&#123;  console.log(`Hello, $&#123;name&#125;!`);&#125;\n\n图片灯箱示例\n点击图片会通过 Fancybox 弹出原图。\n引用与列表\n这是一个引用块，用于展示主题的排版效果。\n\n\n支持暗色模式切换\n支持 Fancybox 图片放大\n支持代码高亮与分享按钮\n\n下一步继续撰写你的第一篇正式文章，使用 hexo new &quot;My First Post&quot;。\n"}]
+[]
