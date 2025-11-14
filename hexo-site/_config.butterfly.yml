@@ -94,7 +94,7 @@ aside:
 
 # RSS & Sitemap 已在主 _config.yml 中配置
 
-# 网站图标
+# 网站图标（浏览器标签页图标）
 favicon: /images/favicon.png
 
 # 头像配置
@@ -103,16 +103,11 @@ avatar:
   rounded: true
   effect: false
 
-# 导航栏 logo
+# 导航栏设置
 nav:
-  logo: /images/favicon.png
-  display_title: true
-  fixed: false
-
-# 首页顶部设置
-index_img: 
-site_title:
-  icon: /images/favicon.png
+  logo: /images/favicon.png  # 导航栏左侧 logo
+  display_title: true  # 是否显示网站标题
+  fixed: false  # 是否固定导航栏
 
 # 主题颜色（可后续优化）
 colors:
