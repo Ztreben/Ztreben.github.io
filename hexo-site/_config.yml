@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的学习笔记
-subtitle: 我的学习笔记
-description: ''
-keywords:
-author: John Doe
+title: Ztreben 的技术笔记
+subtitle: 软件工程 | 算法竞赛 | 项目实践 | 英语学习 | 生活分享
+description: '记录软件工程学习、算法竞赛心得、项目开发经验、英语学习笔记与生活感悟'
+keywords: 软件工程,算法竞赛,项目开发,英语学习,技术博客
+author: Ztreben
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://ztreben.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -115,3 +115,10 @@ sitemap:
 search:
   path: search.json
   field: post
+
+# MathJax 数学公式支持
+mathjax:
+  enable: true
+  per_page: false
+  engine: mathjax
+  tags: none

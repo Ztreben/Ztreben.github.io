@@ -3,13 +3,16 @@
 
 # 站点导航菜单
 menu:
-  首页: /
-  归档: /archives/
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
 
 # 页脚版权
 footer:
   since: 2025
-  owner: 我的学习笔记
+  owner: Ztreben
 
 # 文章设置
 post_meta:
@@ -18,7 +21,10 @@ post_meta:
   tags: true
 
 # 代码高亮（使用主题内 prismjs/hljs 之一）
-highlight_theme: default
+highlight_theme: mac  # 可选：default / mac / mac light / github
+highlight_copy: true  # 代码复制按钮
+highlight_lang: true  # 显示语言标签
+highlight_shrink: false  # 代码块默认展开
 
 # Fancybox 图片灯箱
 fancybox: true
@@ -35,7 +41,7 @@ inject:
 
 # 社交 (示例，可后续补充)
 social:
-  GitHub: https://github.com/Ztreben
+  fab fa-github: https://github.com/zhangzezhen1 || GitHub
 
 # 侧边栏布局
 sidebar:
@@ -47,10 +53,14 @@ sidebar:
 
 # RSS & Sitemap 已在主 _config.yml 中配置
 
-# 可选：头像 (需要放置图片)
+# 网站图标
+favicon: /images/favicon.png
+
+# 头像配置
 avatar:
-  img: /images/avatar.png
+  img: /images/avatar.jpg
   rounded: true
+  effect: false
 
 # 主题颜色（可后续优化）
 colors:
@@ -58,3 +68,14 @@ colors:
 
 # 页面加载动效
 aos: true
+
+# 深色模式
+darkmode:
+  enable: true
+  button: true  # 显示切换按钮
+  autoChangeMode: 1  # 1=跟随系统，2=固定深色，3=固定浅色
+
+# 数学公式支持 (MathJax)
+mathjax:
+  enable: true
+  per_page: true
