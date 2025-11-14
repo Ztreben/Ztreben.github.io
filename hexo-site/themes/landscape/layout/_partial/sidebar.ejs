@@ -1,0 +1,44 @@
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="site-info-title">
+    <h2 id="site-info-title">站点信息</h2>
+    <p>文章数: <%= site.posts.length %></p>
+    <p>分类数: <%= site.categories.length %></p>
+    <p>标签数: <%= site.tags.length %></p>
+  </div>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="latest-posts-title">
+    <h2 id="latest-posts-title">最新文章</h2>
+    <ul>
+      <% site.posts.sort('date', -1).limit(5).forEach(function(p){ %>
+        <li><a href="<%= url_for(p.path) %>"><%= p.title %></a></li>
+      <% }); %>
+    </ul>
+  </div>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="categories-title">
+    <h2 id="categories-title">分类</h2>
+    <ul>
+      <% site.categories.sort('name').forEach(function(c){ %>
+        <li><a href="<%= url_for(c.path) %>"><%= c.name %></a> (<%= c.length %>)</li>
+      <% }); %>
+    </ul>
+  </div>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="tags-title">
+    <h2 id="tags-title">标签</h2>
+    <div class="tagcloud">
+      <% site.tags.sort('name').limit(30).forEach(function(t){ %>
+        <a href="<%= url_for(t.path) %>" style="font-size:0.85em"><%= t.name %></a>
+      <% }); %>
+    </div>
+  </div>
+</section>
+<section class="widget-wrap">
+  <div class="widget" aria-labelledby="toc-title">
+    <h2 id="toc-title">目录</h2>
+    <nav id="toc" aria-label="文章目录"></nav>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<%- partial('_partial/head') %>
+<body>
+  <%- partial('_partial/header') %>
+  <div id="reading-progress"></div>
+  <div id="container">
+    <div id="wrap" class="inner">
+      <main id="content">
+        <%- body %>
+      </main>
+      <aside id="sidebar">
+        <%- partial('_partial/sidebar') %>
+      </aside>
+    </div>
+  </div>
+  <%- partial('_partial/footer') %>
+  <button id="back-to-top" aria-label="返回顶部">↑</button>
+  <%- partial('_partial/scripts') %>
+</body>
+</html>

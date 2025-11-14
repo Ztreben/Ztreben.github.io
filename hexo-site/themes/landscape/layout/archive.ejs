@@ -1,0 +1,10 @@
+<section class="archives">
+  <h1>归档</h1>
+  <% var posts = site.posts.sort('date', -1).toArray(); %>
+  <% posts.forEach(function(post){ %>
+    <article class="archive-item">
+      <time datetime="<%= date_xml(post.date) %>"><%= date(post.date, 'YYYY-MM-DD') %></time>
+      <a href="<%= url_for(post.path) %>"><%= post.title %></a>
+    </article>
+  <% }); %>
+</section>
