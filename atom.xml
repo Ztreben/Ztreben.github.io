@@ -66,11 +66,11 @@
     
     <category term="算法" scheme="https://ztreben.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="数据结构" scheme="https://ztreben.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
     <category term="高精度" scheme="https://ztreben.github.io/tags/%E9%AB%98%E7%B2%BE%E5%BA%A6/"/>
     
     <category term="C++" scheme="https://ztreben.github.io/tags/C/"/>
+    
+    <category term="数据结构" scheme="https://ztreben.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
@@ -93,11 +93,11 @@
     <category term="算法竞赛" scheme="https://ztreben.github.io/categories/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/"/>
     
     
-    <category term="蓝桥杯" scheme="https://ztreben.github.io/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
-    
     <category term="算法" scheme="https://ztreben.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="数据结构" scheme="https://ztreben.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="蓝桥杯" scheme="https://ztreben.github.io/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
     
     <category term="竞赛" scheme="https://ztreben.github.io/tags/%E7%AB%9E%E8%B5%9B/"/>
     
