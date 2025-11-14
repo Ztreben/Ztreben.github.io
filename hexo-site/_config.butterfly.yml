@@ -41,7 +41,7 @@ inject:
 
 # 社交 (示例，可后续补充)
 social:
-  fab fa-github: https://github.com/zhangzezhen1 || GitHub
+  fab fa-github: https://github.com/Ztreben || GitHub
 
 # 侧边栏布局
 aside:
@@ -61,7 +61,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/zhangzezhen1
+      link: https://github.com/Ztreben
   card_announcement:
     enable: true
     content: 欢迎来到我的技术博客！
