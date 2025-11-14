@@ -1,0 +1,60 @@
+# Butterfly theme config (basic)
+# 官方文档: https://butterfly.js.org/
+
+# 站点导航菜单
+menu:
+  首页: /
+  归档: /archives/
+
+# 页脚版权
+footer:
+  since: 2025
+  owner: 我的学习笔记
+
+# 文章设置
+post_meta:
+  date: true
+  categories: true
+  tags: true
+
+# 代码高亮（使用主题内 prismjs/hljs 之一）
+highlight_theme: default
+
+# Fancybox 图片灯箱
+fancybox: true
+
+# 搜索（与 hexo-generator-searchdb 匹配）
+local_search:
+  enable: true
+  preload: true
+
+# 自定义样式注入（复用原 landscape 的 custom.css）
+inject:
+  head:
+    - '<link rel="stylesheet" href="/css/custom.css">'
+
+# 社交 (示例，可后续补充)
+social:
+  GitHub: https://github.com/Ztreben
+
+# 侧边栏布局
+sidebar:
+  position: right
+  display:
+    - author
+    - category
+    - tagcloud
+
+# RSS & Sitemap 已在主 _config.yml 中配置
+
+# 可选：头像 (需要放置图片)
+avatar:
+  img: /images/avatar.png
+  rounded: true
+
+# 主题颜色（可后续优化）
+colors:
+  primary: '#2563eb'
+
+# 页面加载动效
+aos: true
