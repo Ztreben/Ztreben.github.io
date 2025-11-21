@@ -79,6 +79,11 @@ done
 echo "[4/7] 拷贝新生成内容"
 cp -R "../$HEXO_DIR/public/." .
 
+# 追加：确保 .nojekyll 文件存在以禁止 GitHub Pages 进行 Jekyll 处理
+if [[ ! -f .nojekyll ]]; then
+  touch .nojekyll
+fi
+
 echo "[5/7] 提交与推送 main 分支"
 git add .
 if git diff --cached --quiet; then
